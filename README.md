@@ -1,1 +1,3 @@
-This is a scraper that runs on [Morph](https://morph.io). To get started [see the documentation](https://morph.io/documentation)
+
+A little outdated colab sample in a new running version
+EDITED to work out of the box, with reference to sample data on git hub
