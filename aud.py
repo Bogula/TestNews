@@ -2,7 +2,7 @@ import streamlit as st
 import whisper
 from audio_recorder_streamlit import audio_recorder
 
-
+from os import system
 # Whisper
 
 Model ="base"
