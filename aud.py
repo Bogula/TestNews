@@ -3,6 +3,7 @@ import whisper
 from audio_recorder_streamlit import audio_recorder
 
 from os import system
+
 # Whisper
 
 Model ="base"
@@ -17,9 +18,9 @@ audio_bytes = audio_recorder(pause_threshold=1.0)
 if audio_bytes:
     wav= st.audio(audio_bytes, format="audio/wav")
     st.write(type(audio_bytes))
-    st.write("file..")
+    st.write("t2")
     wav_file = open("audio.wav", "wb")
     wav_file.write(audio_bytes)
-    
+   
    
 
