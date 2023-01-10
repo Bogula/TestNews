@@ -1,3 +1,4 @@
 streamlit
+os
 audio_recorder_streamlit 
 git+https://github.com/openai/whisper.git
