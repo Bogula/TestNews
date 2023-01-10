@@ -10,7 +10,7 @@ English = True
 
 model = whisper.load_model(f'{Model}{".en" if English else ""}')
 #system("say --rate=190 --voice=Anna Willkommen beim Mobility Genius.")
-#system("say --rate=190 --voice=Anna Willkommen beim Mobility Genius. Drück auf die Mikrofonbutton um was zu fragen") 
+system("say --rate=190 --voice=Anna Willkommen beim Mobility Genius. Drück auf die Mikrofonbutton um was zu fragen") 
     
 
 audio_bytes = audio_recorder(pause_threshold=1.0)
